@@ -1,10 +1,9 @@
-Visualize [Storex]() schemas by rendering them as a Graphviz dot file
+Visualize [Storex](https://github.com/WorldBrain/storex) schemas by rendering them as a Graphviz dot file
 
 Usage
 =====
 
 ```
 const viz = require('@worldbrain/storex-visualize-graphviz')
-viz.renderRegistryAsDot(storageManager.registry)
+console.log(viz.renderRegistryAsDot(storageManager.registry)) # Dot file source code
 ```
-
